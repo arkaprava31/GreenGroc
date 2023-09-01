@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreeGroc</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <a href="#" class="logo">
+            <ion-icon name="storefront-outline" id="lgicon"></ion-icon>GreeGroc
+        </a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#feat">Features</a>
+            <a href="#prod">Products</a>
+            <a href="#cat">Categories</a>
+            <a href="#about">About us</a>
+        </nav>
+
+        <div class="icons">
+            <ion-icon name="menu-outline" id="menuicon"></ion-icon>
+            <ion-icon name="search-outline" id="srchicon"></ion-icon>
+            <ion-icon name="cart-outline" id="carticon"></ion-icon>
+            <ion-icon name="person-outline" id="lgn"></ion-icon>
+        </div>
+
+        <form action="" class="srchbox" id="sbx">
+            <input type="search" name="search" id="srchbx" placeholder="Search here....">
+            <ion-icon name="search-outline"></ion-icon>
+        </form>
+
+        <div class="items-cart">
+            <div class="items">
+                <ion-icon name="trash-outline"></ion-icon>
+                <img src="image/cart-img-1.png" alt="" srcset="">
+                <div class="items">
+                    <h3>Watermelon</h3>
+                    <span class="prc">Rs 100</span>
+                    <span class="qty">Qty: 1</span>
+                </div>
+            </div>
+            <div class="items">
+                <ion-icon name="trash-outline"></ion-icon>
+                <img src="image/cart-img-3.png" alt="" srcset="">
+                <div class="items">
+                    <h3>Chicken</h3>
+                    <span class="prc">Rs 300</span>
+                    <span class="qty">Qty: 1</span>
+                </div>
+            </div>
+            <div class="items">
+                <ion-icon name="trash-outline"></ion-icon>
+                <img src="image/cart-img-2.png" alt="" srcset="">
+                <div class="items">
+                    <h3>Onion</h3>
+                    <span class="prc">Rs 50</span>
+                    <span class="qty">Qty: 1</span>
+                </div>
+            </div>
+            <div class="totprc"><b>Total Amount:</b> Rs 450</div>
+            <a href="#" class="btn">Checkout</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>Login</h3>
+            <input type="email" placeholder="Enter your email" class="lgnbx">
+            <br>
+            <input type="password" placeholder="Enter your password" class="lgnbx">
+            <p>Forget your password? <a href="#">Click here</a></p>
+            <p>Don't have an account? <a href="#">Create now</a></p>
+            <input type="submit" value="Welcome back!!!" class="btn">
+        </form>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="content">
+            <h2>Happiness is getting <span>groceries</span> delivered to you within very little time.
+                <span>#fresh</span>
+            </h2>
+            <input type="button" value="Shop now" class="btn">
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="feat">
+        <h2>Our <span>Features</span></h2>
+        <div class="feat-content">
+            <div class="box">
+                <img src="image/feature-img-1.png" alt="" srcset="">
+                <h3>Fresh & Green</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero alias at voluptatibus.</p>
+                <input type="button" value="Read more" class="btn">
+            </div>
+            <div class="box">
+                <img src="image/feature-img-2.png" alt="" srcset="">
+                <h3>Free Delivery</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero alias at voluptatibus.</p>
+                <input type="button" value="Read more" class="btn">
+            </div>
+            <div class="box">
+                <img src="image/feature-img-3.png" alt="" srcset="">
+                <h3>Easy Payments</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero alias at voluptatibus.</p>
+                <input type="button" value="Read more" class="btn">
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="prod">
+        <h2>Our <span>Products</span></h2>
+
+        <!-- Using Swiper slider for sliding operation -->
+        <div class="swiper slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="image/product-1.png" alt="">
+                    <h3>Fresh Oranges</h3>
+                    <div class="price">Rs 50 - Rs 300</div>
+                    <input type="button" value="Add to Cart" class="btn">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/product-2.png" alt="">
+                    <h3>Fresh Onions</h3>
+                    <div class="price">Rs 50 - Rs 300</div>
+                    <input type="button" value="Add to Cart" class="btn">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/product-3.png" alt="">
+                    <h3>Fresh Meat</h3>
+                    <div class="price">Rs 50 - Rs 300</div>
+                    <input type="button" value="Add to Cart" class="btn">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/product-4.png" alt="">
+                    <h3>Fresh Cabbages</h3>
+                    <div class="price">Rs 50 - Rs 300</div>
+                    <input type="button" value="Add to Cart" class="btn">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/product-5.png" alt="">
+                    <h3>Fresh Potatoes</h3>
+                    <div class="price">Rs 50 - Rs 300</div>
+                    <input type="button" value="Add to Cart" class="btn">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/product-6.png" alt="">
+                    <h3>Fresh Avocado</h3>
+                    <div class="price">Rs 50 - Rs 300</div>
+                    <input type="button" value="Add to Cart" class="btn">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/product-7.png" alt="">
+                    <h3>Fresh Carrots</h3>
+                    <div class="price">Rs 50 - Rs 300</div>
+                    <input type="button" value="Add to Cart" class="btn">
+                </div>
+                <div class="swiper-slide box">
+                    <img src="image/product-8.png" alt="">
+                    <h3>Green Lime</h3>
+                    <div class="price">Rs 50 - Rs 300</div>
+                    <input type="button" value="Add to Cart" class="btn">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Categories Section -->
+    <section class="categories" id="cat">
+        <h2>Our <span>Categories</span></h2>
+        <div class="cat-content">
+            <div class="box">
+                <img src="image/cat-1.png" alt="">
+                <h3><span class="grspan">Green</span> Vegitables</h3>
+                <p>Upto 40% Off</p>
+                <input type="button" value="Shop Now" class="btn">
+            </div>
+            <div class="box">
+                <img src="image/cat-2.png" alt="">
+                <h3><span class="grspan">Fresh</span> Fruits</h3>
+                <p>Upto 40% Off</p>
+                <input type="button" value="Shop Now" class="btn">
+            </div>
+            <div class="box">
+                <img src="image/cat-3.png" alt="">
+                <h3><span class="grspan">Fresh</span> Dairy</h3>
+                <p>Upto 40% Off</p>
+                <input type="button" value="Shop Now" class="btn">
+            </div>
+            <div class="box">
+                <img src="image/cat-4.png" alt="">
+                <h3><span class="grspan">Fresh</span> Meat</h3>
+                <p>Upto 40% Off</p>
+                <input type="button" value="Shop Now" class="btn">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2>About <span>Us</span></h2>
+        <div class="ftbox">
+            <h3 class="ftlogo">GreeGroc <ion-icon name="storefront-outline" id="lgicon"></ion-icon>
+            </h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, illum vel officiis accusamus nisi est.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ratione quas doloribus hic minima
+                error ducimus est aperiam eaque sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+                officia quidem illo ex praesentium minima!</p>
+            <div class="share">
+                <a href="#/">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+                <a href="#/">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                <a href="#/">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+                <a href="#/">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+            </div>
+        </div>
+        <div class="abt-content">
+            <div class="box">
+                <h3>Contact Us</h3>
+                <div class="contact">
+                    <div class="contico"><a href="#/">
+                            <ion-icon name="call-outline"></ion-icon> +91-000-000-0000
+                        </a></div>
+                    <div class="contico"><a href="#/">
+                            <ion-icon name="mail-outline"></ion-icon> greegroc@gmail.com
+                        </a></div>
+                    <div class="contico"><a href="#/">
+                            <ion-icon name="location-outline"></ion-icon> Kolkata, West Bengal, India
+                        </a></div>
+                </div>
+            </div>
+            <div class="box">
+                <h3>Newsletter</h3>
+                <p class="nws">Subscribe for more updates...Stay tuned</p>
+                <div class="con">
+                    <input type="email" name="email" id="eml" placeholder="Enter your Email id">
+                    <input type="button" value="Subscribe" class="btn">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="foot">
+        Made with ❤️ | @ Copyright 2022
+    </div>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
